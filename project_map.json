@@ -1,0 +1,38 @@
+{
+  "_comment": "Реестр проектных папок Paper Planes на Google Drive. Имя проекта → ID Drive-папки + список синонимов для нечёткого поиска по именам файлов. При добавлении нового проекта — присылайте PR.",
+  "_updated": "2026-05-16",
+  "projects": [
+    {
+      "name": "Бургер Кинг / Burger King",
+      "aliases": ["БК", "BK", "ВК", "Burger King", "Бургер Кинг", "BurgerKing"],
+      "drive_folder_id": "1mSJ07xivFL-kldygECkGpwHTIUis-7wh",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1mSJ07xivFL-kldygECkGpwHTIUis-7wh",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Финальные файлы": "178xILmqjYb0n6rrevdXloe9WnuBWjgpU",
+        "Внедрение": "12L9MeLzaVXos7MRrVh0xdgHuThngF2kf",
+        "Аналитика (АТС)": "1XOSfal9wSa36J6RkH2mPpSVE-0Ttx3xp",
+        "Входящие от клиента": "1m8QM1fHapkJybTMS_Ga7N7065wMdz_us",
+        "Административные документы": "1qBVM_DGDHZBcedExbfX4HRT5JT4dFqjW"
+      }
+    },
+    {
+      "name": "Рокада мед. Абонент",
+      "aliases": ["Рокада", "РокадаМед", "Рокада мед", "Рокада Мед", "RokadaMed", "Rokada"],
+      "drive_folder_id": "1QPN2om0FoPb9UfPTl33VOaGpRDYGo-81",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1QPN2om0FoPb9UfPTl33VOaGpRDYGo-81",
+      "default_subfolder": null,
+      "subfolders": {
+        "Рокада. Интервью": "1_7CYRYsfpLWAOe-dbvB5L8ZrDLJGxUVd"
+      }
+    },
+    {
+      "name": "ТД Комплект",
+      "aliases": ["ТД Комплект", "ТДК", "Комплект", "TDKomplekt"],
+      "drive_folder_id": "1eCW9FZjd3790s-lGxnE2n-inXeQAHk5B",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1eCW9FZjd3790s-lGxnE2n-inXeQAHk5B",
+      "default_subfolder": null,
+      "subfolders": {}
+    }
+  ]
+}
