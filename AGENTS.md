@@ -22,6 +22,9 @@
 | «Перенеси файлы из общей в папку клиента X» | `gdrive_organize.py` |
 | «Залей этот файл на Drive» | `gdrive_upload.py` |
 | «Положи документ в Бургер Кинг» | `gdrive_upload.py` с `--project` |
+| «Создай пустой Google Doc в Бургер Кинг» | `gdrive_create.py --type doc --project ...` |
+| «Сделай таблицу/презентацию в папке клиента X» | `gdrive_create.py --type sheet/slides` |
+| «Создай подпапку в проекте X» | `gdrive_create.py --type folder` |
 
 ## Жёсткие правила
 

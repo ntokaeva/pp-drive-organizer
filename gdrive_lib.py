@@ -160,6 +160,47 @@ def move_file(token: str, file_id: str, new_parent: str, old_parent: str) -> dic
     )
 
 
+GOOGLE_MIME = {
+    "doc": "application/vnd.google-apps.document",
+    "sheet": "application/vnd.google-apps.spreadsheet",
+    "slides": "application/vnd.google-apps.presentation",
+    "folder": "application/vnd.google-apps.folder",
+}
+
+
+def create_drive_file(
+    token: str,
+    name: str,
+    parent_id: str,
+    kind: str = "doc",
+) -> dict:
+    """Создаёт пустой Google-документ/таблицу/презентацию/подпапку в parent_id.
+
+    kind: 'doc' | 'sheet' | 'slides' | 'folder'
+    Возвращает {'id', 'name', 'webViewLink', 'mimeType'}.
+    """
+    if kind not in GOOGLE_MIME:
+        raise DriveError(f"kind должен быть один из {list(GOOGLE_MIME)}, получил {kind!r}")
+    metadata = {
+        "name": name,
+        "parents": [parent_id],
+        "mimeType": GOOGLE_MIME[kind],
+    }
+    url = (
+        f"{DRIVE_API}/files?"
+        f"supportsAllDrives=true&fields=id,name,mimeType,webViewLink,parents"
+    )
+    req = urllib.request.Request(
+        url,
+        data=json.dumps(metadata, ensure_ascii=False).encode("utf-8"),
+        method="POST",
+    )
+    req.add_header("Authorization", f"Bearer {token}")
+    req.add_header("Content-Type", "application/json; charset=UTF-8")
+    with urllib.request.urlopen(req, timeout=60, context=_SSL_CTX) as resp:
+        return json.load(resp)
+
+
 _GOOGLE_FORMATS = {
     ".xlsx": "application/vnd.google-apps.spreadsheet",
     ".xls": "application/vnd.google-apps.spreadsheet",
