@@ -1,38 +1,1362 @@
 {
   "_comment": "Реестр проектных папок Paper Planes на Google Drive. Имя проекта → ID Drive-папки + список синонимов для нечёткого поиска по именам файлов. При добавлении нового проекта — присылайте PR.",
   "_updated": "2026-05-16",
+  "_source": "Автогенерация из дерева 4. Производство (1LbbERfpfZ4O2Xa4OPPmP2rK4z6Rk5hxk), глубина 5. Ручные алиасы существующих проектов сохранены.",
   "projects": [
     {
-      "name": "Бургер Кинг / Burger King",
-      "aliases": ["БК", "BK", "ВК", "Burger King", "Бургер Кинг", "BurgerKing"],
-      "drive_folder_id": "1mSJ07xivFL-kldygECkGpwHTIUis-7wh",
-      "drive_folder_url": "https://drive.google.com/drive/folders/1mSJ07xivFL-kldygECkGpwHTIUis-7wh",
-      "default_subfolder": "Внедрение",
-      "subfolders": {
-        "Финальные файлы": "178xILmqjYb0n6rrevdXloe9WnuBWjgpU",
-        "Внедрение": "12L9MeLzaVXos7MRrVh0xdgHuThngF2kf",
-        "Аналитика (АТС)": "1XOSfal9wSa36J6RkH2mPpSVE-0Ttx3xp",
-        "Входящие от клиента": "1m8QM1fHapkJybTMS_Ga7N7065wMdz_us",
-        "Административные документы": "1qBVM_DGDHZBcedExbfX4HRT5JT4dFqjW"
-      }
-    },
-    {
       "name": "Рокада мед. Абонент",
-      "aliases": ["Рокада", "РокадаМед", "Рокада мед", "Рокада Мед", "RokadaMed", "Rokada"],
+      "aliases": [
+        "Рокада",
+        "РокадаМед",
+        "Рокада мед",
+        "Рокада Мед",
+        "RokadaMed",
+        "Rokada"
+      ],
       "drive_folder_id": "1QPN2om0FoPb9UfPTl33VOaGpRDYGo-81",
       "drive_folder_url": "https://drive.google.com/drive/folders/1QPN2om0FoPb9UfPTl33VOaGpRDYGo-81",
       "default_subfolder": null,
       "subfolders": {
         "Рокада. Интервью": "1_7CYRYsfpLWAOe-dbvB5L8ZrDLJGxUVd"
+      },
+      "rg": null
+    },
+    {
+      "name": "Indeed / Индид",
+      "rg": "РГ1",
+      "aliases": [
+        "Indeed / Индид",
+        "Indeed",
+        "Индид"
+      ],
+      "drive_folder_id": "14GXHSyR4iZM4KD9pEsXy4HAmCMdyU-FE",
+      "drive_folder_url": "https://drive.google.com/drive/folders/14GXHSyR4iZM4KD9pEsXy4HAmCMdyU-FE",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1A-mMJwg1rTtOaZEYf8Gka58FaBMiWMyn",
+        "Входящие от клиента": "1in5ylk0rewo_u648tpHSdnpMngx6rIDH",
+        "Аналитика (АТС)": "1RMfTek1kCCF_kIklqoQUGa1O8xUoe26H",
+        "Indeed / Индид. Административные документы": "1pl07h49pT6h8zd_H_LUzXj9IrdZ-AaoR",
+        "Indeed / Индид. Аналитика (АТС)": "17tDiGQr-Jh1TrMPNFs5yuDpibjMJ6zJI",
+        "Внедрение": "1bBlC1GQVpo0tOiEB0OzNa_Q2_6chRwJ1",
+        "Indeed / Индид. Входящие от клиента": "1OWUI7Rk6-6EsrtsF4gnkr3na1j0ffqK3",
+        "Финальные файлы": "1XE_9RtPcXOJD8rm_B2O-C7dF2r3XIHvP"
       }
     },
     {
-      "name": "ТД Комплект",
-      "aliases": ["ТД Комплект", "ТДК", "Комплект", "TDKomplekt"],
+      "name": "Wtp / Втп",
+      "rg": "РГ1",
+      "aliases": [
+        "Wtp / Втп",
+        "Wtp",
+        "Втп"
+      ],
+      "drive_folder_id": "1RzKWgJ9jAwdPCfSPwKnNQIEzOCftekIP",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1RzKWgJ9jAwdPCfSPwKnNQIEzOCftekIP",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1Pm34EIrbMO7jqPcrWTQcZJKzu0jp623J",
+        "Аналитика (АТС)": "1R-eqkx-ke6UfNFRKeuQSCKCc0ED8Vzql",
+        "Внедрение": "1FKIpQ3j56H3JUnYWFyPUyioFBKNQUXKa",
+        "Входящие от клиента": "1814jdX1cHpXLjZsEhpmcY_a9BO8XkNfi",
+        "Финальные файлы": "17ye7Unxobr1AqrQXKV57f87Cx4-cv-cV"
+      }
+    },
+    {
+      "name": "Авалон-П",
+      "rg": "РГ1",
+      "aliases": [
+        "Авалон-П"
+      ],
+      "drive_folder_id": "1kQqnhSMOoSIqWpQiSQhnVJjw9MoKDgeB",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1kQqnhSMOoSIqWpQiSQhnVJjw9MoKDgeB",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "17rxRbxjCzpsZH7vqj7akOAmwZ3LAg38q",
+        "Аналитика (АТС)": "1WG0SGFJMDdoeu9uASM4iVu7syWygfozb",
+        "Внедрение": "1yQMlfWeUAkg0tYJQy4HvDJrvqAuo1X46",
+        "Входящие от клиента": "1waMB1gM30zLFVRHtxRDTEpcJAwW1nux3",
+        "Финальные файлы": "14ZhaEyi_6V5rYTZv2Gdt_S2S6ltzf8Vv"
+      }
+    },
+    {
+      "name": "Авантпак",
+      "rg": "РГ1",
+      "aliases": [
+        "Авантпак"
+      ],
+      "drive_folder_id": "1tvv2ylXwcA5N5QyXY6sNT9mU9lUxQRyv",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1tvv2ylXwcA5N5QyXY6sNT9mU9lUxQRyv",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1_BAOCRmBCubIQbr_vQvwHFXa1r7HZMd6",
+        "Аналитика (АТС)": "1plD5ltt1QSrqyLFNms9_mWFnrxsu9la-",
+        "Внедрение": "1T333a_NeqS31SzIpHxckJftXCDypqKJf",
+        "Входящие от клиента": "13xJ3IQis18R1a7Bf7I0Xjj4sVwylvsmd",
+        "Финальные файлы": "1hB6sRjwAjPlz3xFF49TWKWw9PRZT3zo-"
+      }
+    },
+    {
+      "name": "Айпол",
+      "rg": "РГ1",
+      "aliases": [
+        "Айпол"
+      ],
+      "drive_folder_id": "1LgxzzbPJO26LQia7Lxzedlp1GLkwL6gO",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1LgxzzbPJO26LQia7Lxzedlp1GLkwL6gO",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1gOjWPQvR-l0o4MY1dGnQnNfA83fxRURJ",
+        "Аналитика (АТС)": "1-vuZuEDpVCVMfeklw_g6gVZwTJvigSD-",
+        "Внедрение": "1fjCGSuGZg9NdaKP_ftLaOqXHz3CxpFYp",
+        "Входящие от клиента": "1obvRBTlB3rR_BYzwpTdQnfZrNShvL9tM",
+        "Финальные файлы": "1IjCKix60SHa_8tMhGaRhSSoqyPIY5LTs"
+      }
+    },
+    {
+      "name": "Аконит",
+      "rg": "РГ1",
+      "aliases": [
+        "Аконит"
+      ],
+      "drive_folder_id": "1r3tX7BQD8lNI-yVGaY5Lyo3N4fQa3iLj",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1r3tX7BQD8lNI-yVGaY5Lyo3N4fQa3iLj",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1YcPkztxJTElgEBKLKeP__7tN7gBm2ko1",
+        "Аналитика (АТС)": "1FDed9e5rRs_ZlF1bapP0CBx3rI0puxXe",
+        "Внедрение": "1HIqmSB9QQUrdOeFcZ9zdRiRDjn_ukGt7",
+        "Входящие от клиента": "1JCQ8HwboVASndLP6Vw6h6uqrpjWTBKR2",
+        "Финальные файлы": "1nfuK0V9eaZUPhZQBsu49KJtgAYfrGbXo"
+      }
+    },
+    {
+      "name": "Альтернатива 2026",
+      "rg": "РГ1",
+      "aliases": [
+        "Альтернатива 2026"
+      ],
+      "drive_folder_id": "1iOiQ9rTwEDqHBwQuwJqyVRCale71aEPz",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1iOiQ9rTwEDqHBwQuwJqyVRCale71aEPz",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1lIkXs-UXOCE334uLF1J_5a2f-eIVngEq",
+        "Аналитика (АТС)": "1V5lOQ_Rl1BVnbSFugUGT0f8y7fPeoT34",
+        "Внедрение": "1nrd8SeXf_0dghravlkp8qUccbwgR7PQY",
+        "Входящие от клиента": "1e64aRMLSBiDXsZ-pBybU0_e3jci-Wn7a",
+        "Финальные файлы": "1IwEqwAgUqw8Cb_mlxyJvG6-cyQNBWtUA"
+      }
+    },
+    {
+      "name": "Анд Азия (Абонентка)",
+      "rg": "РГ1",
+      "aliases": [
+        "Анд Азия (Абонентка)",
+        "Анд Азия"
+      ],
+      "drive_folder_id": "11nYiWaJ9LcMizT1_Yqvs4qv__broL4Ij",
+      "drive_folder_url": "https://drive.google.com/drive/folders/11nYiWaJ9LcMizT1_Yqvs4qv__broL4Ij",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Sensus": "14luYBfBWAxxHtbW740naJF7fEQSMXqK1",
+        "Административные документы": "1VC1U8zarC2ngNOQ7AkC-OA5nmlyS9vbg",
+        "Аналитика (АТС)": "1ssU1e79TFNRY0i3xv3LRqBxNU79oCS1i",
+        "Внедрение": "1i1c3wLQfv4s_lA8idfllDuwSGfKNa98V",
+        "Входящие от клиента": "1dR48IF5jGAMEVZMEcMoD1WR8_479i7u-",
+        "Финальные файлы": "1Teoxgsot5Hy5R56FYs9yRHvCMiV5b82F"
+      }
+    },
+    {
+      "name": "Арвад",
+      "rg": "РГ1",
+      "aliases": [
+        "Арвад"
+      ],
+      "drive_folder_id": "1T-OuldWDjsUIaVm9z-Fksrk1o_3Vuphz",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1T-OuldWDjsUIaVm9z-Fksrk1o_3Vuphz",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1pfP6xMEQ2GoiiAg6QIQTELrg_obCgmmR",
+        "Аналитика (АТС)": "1Zsp8Zyf5G0ORHHaR27vBrEOLMYoiHxOV",
+        "Внедрение": "1gjZpf7Ev3Rpat9spgpL4Z1k-Q1Aw535K",
+        "Входящие от клиента": "1JaORh8LDQR1VSEwAHuBxidmHaf5Ees8r",
+        "Финальные файлы": "1jyqRdAFnDyrhUYar4bDjiTTwpCj4TFKx"
+      }
+    },
+    {
+      "name": "Бонум",
+      "rg": "РГ1",
+      "aliases": [
+        "Бонум"
+      ],
+      "drive_folder_id": "1LFn_8UP0bIEgFNeOONvEMfBpFREOkD0i",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1LFn_8UP0bIEgFNeOONvEMfBpFREOkD0i",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1aeNAE9aKwtenRiEDKX2VEXmd-LdBeV1X",
+        "Аналитика (АТС)": "1U8IipNCUvt481TbKfhR9r7BG5uQs-Hb5",
+        "Внедрение": "1xZHgHrDLMVySaEF1dehOQ5gxqLookoHA",
+        "Входящие от клиента": "1jTNQCQKOSRW9qITmpEoXlTq3gHlmvnYj",
+        "Финальные файлы": "1l4293L8Li8r59bgqP4l4ck67mQgGoBwS"
+      }
+    },
+    {
+      "name": "Бп Модули",
+      "rg": "РГ1",
+      "aliases": [
+        "Бп Модули"
+      ],
+      "drive_folder_id": "1a9NtA6PC1x7I2xPDz6AdN-RSLKp4yPiC",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1a9NtA6PC1x7I2xPDz6AdN-RSLKp4yPiC",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1VDwF77ztcZCu6Mk8zpmKsZMDutPwLWx7",
+        "Аналитика (АТС)": "1WsjlgDeEqOz625rYHJODVCt647Y5GG2N",
+        "Внедрение": "19hV4haWRFJvzjqF6sIpiHjZJByOtf8xk",
+        "Входящие от клиента": "1FUIKkjTilOkNChK5BgDIbvqse_gOX5Jr",
+        "Финальные файлы": "1Vs6ozJi6l4blmSVuGDyobehAwhKL0WPC"
+      }
+    },
+    {
+      "name": "Вастэко (Иссл)",
+      "rg": "РГ1",
+      "aliases": [
+        "Вастэко (Иссл)",
+        "Вастэко"
+      ],
+      "drive_folder_id": "1RF9La7igVxlkSRMSfaqNgnoOSY432FOs",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1RF9La7igVxlkSRMSfaqNgnoOSY432FOs",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1I8if1TLoydi3D7pkmR6oBFoeWCYD6t3M",
+        "Аналитика (АТС)": "19VRoRyl5S_NfFekKGF6sUqgftqJ2-4e7",
+        "Внедрение": "1iv0Vis1aKC7HKtnTWt2jTTKLgwJmr5f5",
+        "Входящие от клиента": "1Ck8CaXUUufVVokL61U_kR7jlTQKwd6ys",
+        "Финальные файлы": "1eM5kusfiNA3LvLPmLKU5vQBR9ZCqGqzL"
+      }
+    },
+    {
+      "name": "Венеция 2.0",
+      "rg": "РГ1",
+      "aliases": [
+        "Венеция 2.0"
+      ],
+      "drive_folder_id": "1QJR6AtAHtMdzGvDXkMXjwkPxOq0_NAz7",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1QJR6AtAHtMdzGvDXkMXjwkPxOq0_NAz7",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1nOUqpnjy7tbVGhHWvIvJhFAyWOXqzIdp",
+        "Аналитика (АТС)": "15cgLN3DDPX24TYi_9OE8Or3BQKZA09CE",
+        "Внедрение": "1GbY7DVTR9_Z1LNeU0e8Lg-rd9fJL2DDm",
+        "Входящие от клиента": "1bQIfL3osDXRJHCkQJLqgOM1RaZuaag58",
+        "Финальные файлы": "17HV3RyjPolc3La4NAKHVMytdHw86dm8e"
+      }
+    },
+    {
+      "name": "Вуу (Абонентка)",
+      "rg": "РГ1",
+      "aliases": [
+        "Вуу (Абонентка)",
+        "Вуу"
+      ],
+      "drive_folder_id": "1V1r-1fyYhFgUVrbH9_AKkRjE2M1Ixrn9",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1V1r-1fyYhFgUVrbH9_AKkRjE2M1Ixrn9",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1qYzaxA3N-YBMRcuzcIwT7vFomTv2UFNi",
+        "Аналитика (АТС)": "15EnW0LLYsjJ2RtLEZ-DD4iJMr_1MPwdr",
+        "Внедрение": "1MeKTzR3mVpJnX8-fgpRI7feU31mmZKm_",
+        "Входящие от клиента": "1gQ8qm6tBHH_U5NZfc6xoikl5rlxWmeA-",
+        "Финальные файлы": "1e0sEJyLqdw5-C42gPOjRzGGVJW5FXxmr"
+      }
+    },
+    {
+      "name": "Гарсис",
+      "rg": "РГ1",
+      "aliases": [
+        "Гарсис"
+      ],
+      "drive_folder_id": "1hXAvCSyV4yhcx3vsIhdiszsTDGfekU3O",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1hXAvCSyV4yhcx3vsIhdiszsTDGfekU3O",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1GbBT0BpDhEe2SXDEidCgcUIAW8rKgh47",
+        "Аналитика (АТС)": "197R46jI15r0SRfWX6wxvVeqRuNr-hoQh",
+        "Внедрение": "1bQ4HvkiSrCVPn1keUmgTdSIvWBzD_466",
+        "Входящие от клиента": "1P5o9r8214MSybv-DcutnVeSJ961GMBp9",
+        "Финальные файлы": "11HEsliVKadXTKzoyW-QNRX5Lv7_tmHAb"
+      }
+    },
+    {
+      "name": "Глобал Имплант",
+      "rg": "РГ1",
+      "aliases": [
+        "Глобал Имплант"
+      ],
+      "drive_folder_id": "1CNbtPjurDR0qFld59mhRlkQ7tqGI5l1E",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1CNbtPjurDR0qFld59mhRlkQ7tqGI5l1E",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1nXT0mPZ1aWS1cAdEOFqYV9jgPEaNdD-V",
+        "Аналитика (АТС)": "1wc2Kr-Fn9MSxwRaRkYpIiWAP5l8Cvmf3",
+        "Внедрение": "1U379gjZZYBUFz2xegPMGx7u_QCS3xxcO",
+        "Входящие от клиента": "1z4LEeg4mvWz5DnBrWBdkZhxrDgv841xy",
+        "Финальные файлы": "1sYQDJlYqtvUUTnJ9a5PkfK8HZOP6kROx"
+      }
+    },
+    {
+      "name": "Гри",
+      "rg": "РГ1",
+      "aliases": [
+        "Гри"
+      ],
+      "drive_folder_id": "1zurqYWnuz1Jei3bsVl9aovDtwN3V6V1R",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1zurqYWnuz1Jei3bsVl9aovDtwN3V6V1R",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1T80EoKLzGMLKeZUOQo6ALy1oC73T5eVk",
+        "Аналитика (АТС)": "14onL19pMzPo6Jl5JBchvD1KZCs62YXLa",
+        "Внедрение": "1TXhlwRLmK1gqvVvCM3-Fn4cuIUpMrSL4",
+        "Входящие от клиента": "14b5rU5qcRuGpOYi4niHY5Eha_k5tUZbP",
+        "Финальные файлы": "1rDgQKQ2A_Xyh9-5OUR7t9NatGfFqYwAf"
+      }
+    },
+    {
+      "name": "Евразия Групп (Фцк)",
+      "rg": "РГ1",
+      "aliases": [
+        "Евразия Групп (Фцк)",
+        "Евразия Групп"
+      ],
+      "drive_folder_id": "1ODkf4-WZetp6QfqLpP6dfkuYXm8s05fA",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1ODkf4-WZetp6QfqLpP6dfkuYXm8s05fA",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1A1WIJVzitS168HK9GX5CEdPHfInsee6u",
+        "Аналитика (АТС)": "14tRKxsUiGK8MyAUV_LJ29I6nocRVuafa",
+        "Внедрение": "1dqcjyiw6IJ3A9YQW_034TYfANeqVnrJ3",
+        "Входящие от клиента": "1DxbcpqChsXbK9EJr8wuH8WwuIDjipuZG",
+        "Финальные файлы": "1vIBxx9Jc97jVNM_JfT9AJLbHhUBbzGKD"
+      }
+    },
+    {
+      "name": "Изтт. Cjm",
+      "rg": "РГ1",
+      "aliases": [
+        "Изтт. Cjm"
+      ],
+      "drive_folder_id": "1mEtA_mzmk66OH7qLs93w199bfNKue42K",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1mEtA_mzmk66OH7qLs93w199bfNKue42K",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1QhzGWGwCFo1i_zCxY_a_B-xR3j7BxOMb",
+        "Аналитика (АТС)": "1THV6q_H8OEbN2ijJmIoLW1y5UktJHtdf",
+        "Внедрение": "1aXfDkcNSRqRedWx5hGI9R_PYZKX4D_sj",
+        "Входящие от клиента": "1nQthaQgaHswFZyj-V3e5hD9acyqcY18t",
+        "Финальные файлы": "1-ivzSDYElpv6NbCrsw5UgVoxUs-azau0"
+      }
+    },
+    {
+      "name": "Квант",
+      "rg": "РГ1",
+      "aliases": [
+        "Квант"
+      ],
+      "drive_folder_id": "1PYFaugbmAbI0DcSATuHu1iAr5bKwtceA",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1PYFaugbmAbI0DcSATuHu1iAr5bKwtceA",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1c1AuX7FTlCXxfAjt5Q9YEMbuX6uyMI3P",
+        "Аналитика (АТС)": "1rDREnxfN5a4FWPxnqboWcNLm3CydHfX4",
+        "Внедрение": "1VQc3QhIZdTpQAwji-FX5vaVUdlBu8leb",
+        "Входящие от клиента": "1OT4-cKGVNjVq_CrVIJ_35Cma7hYi1nJe",
+        "Финальные файлы": "14zoWsZJR8vJtyoPstJFNhgopbeJw8cXt"
+      }
+    },
+    {
+      "name": "Латитудо",
+      "rg": "РГ1",
+      "aliases": [
+        "Латитудо"
+      ],
+      "drive_folder_id": "1MNTnUcCsURJYVmQTMgC6gaO9NaMVEWR7",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1MNTnUcCsURJYVmQTMgC6gaO9NaMVEWR7",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1HLL4dAuHDTY5KXN6KnJcwLv5rn-kuCu0",
+        "Аналитика (АТС)": "1ciJoPEev6GOJkS2nDfDvBONjdWag4m9b",
+        "Внедрение": "1UDeydnHZlN88dUkVrhl9RzBj5B-WfXYQ",
+        "Входящие от клиента": "1zP0Ni8IdHvrSGZsi1WftaT6j5o_39heG",
+        "Финальные файлы": "1NGRp_2d3QIFI8bubHi5EOoTSgwUEyX0I"
+      }
+    },
+    {
+      "name": "Лсбр",
+      "rg": "РГ1",
+      "aliases": [
+        "Лсбр"
+      ],
+      "drive_folder_id": "1vnIZXC8wznsB3AK_-yjY7RAoRknjLPAt",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1vnIZXC8wznsB3AK_-yjY7RAoRknjLPAt",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1_t6zTQOZYyln43hyi7FWZ5u6rIx5lAxf",
+        "Аналитика (АТС)": "1n1fOC5cO08XdCyr8gyiyvYZasqw99TYI",
+        "Внедрение": "1tJAqIyGQ81laXmircImL4XlRUSw9OUu4",
+        "Входящие от клиента": "1OctFTslW3O7aEHX_rA7EnvK9-Zay2g_K",
+        "Финальные файлы": "1tJyDEvb6gvd3TUZ9Mh0i2-w721_fTclK"
+      }
+    },
+    {
+      "name": "Мясной Гурман Crm",
+      "rg": "РГ1",
+      "aliases": [
+        "Мясной Гурман Crm"
+      ],
+      "drive_folder_id": "1Vo_i0Quco8ci5KAfY2_iRwu1PlWu8sbM",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1Vo_i0Quco8ci5KAfY2_iRwu1PlWu8sbM",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1h_abJrHBiO8HUI6wBKJIYJzCNEc5Wvcg",
+        "Аналитика (АТС)": "1oSNEyS72yzQ3pD8tAysfzM1CoY9C80FD",
+        "Внедрение": "1navMcKvhRfc5Chca7rt_N07evvZ4ILAP",
+        "Входящие от клиента": "1i0rB3DcUe0t-1S-xFweTKLWn2dZVZGoe",
+        "Финальные файлы": "1OLWwLLf0xZyCf71jE5oF6l7j9z3ql6LU"
+      }
+    },
+    {
+      "name": "Ника",
+      "rg": "РГ1",
+      "aliases": [
+        "Ника"
+      ],
+      "drive_folder_id": "1ovekq_QwvYAI3SKrg0PSGAMiHestjD7z",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1ovekq_QwvYAI3SKrg0PSGAMiHestjD7z",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1YqDCVvroT52-iI3LfFO2sGG_snVvuAJI",
+        "Аналитика (АТС)": "1jCl18izRGdFeMrJjh2HAnlQDlIK0EXWR",
+        "Внедрение": "1bH3l3y411kV7eJjZYfcCCxCnJGzXWWec",
+        "Входящие от клиента": "1jSEM5BpIMYRhy33Em-Zz1hQnAy-8peTA",
+        "Финальные файлы": "1YpOyTR-gpEJgabo9_ySsWvAuMO_qkrNo"
+      }
+    },
+    {
+      "name": "Полюс Золото",
+      "rg": "РГ1",
+      "aliases": [
+        "Полюс Золото"
+      ],
+      "drive_folder_id": "13B4ixTv0NUgbrxW7hTfwjH79xHhtDN75",
+      "drive_folder_url": "https://drive.google.com/drive/folders/13B4ixTv0NUgbrxW7hTfwjH79xHhtDN75",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1J0aD7t6_AWOoOHxRbnFnRG2Urjsk3qd-",
+        "Аналитика (АТС)": "1lc36_P2rCzp5N1Oocdvy0DHLGd1W5A6F",
+        "Внедрение": "1UxjdWFEFHF44HkZdJfeaCQKYwp658rhE",
+        "Входящие от клиента": "1H205WsU8EowiH4xVnezIgp797qzVa0es",
+        "Финальные файлы": "1MC_tEs9YzhBchYpweyAOb0hpiiSCqOp4"
+      }
+    },
+    {
+      "name": "Росма",
+      "rg": "РГ1",
+      "aliases": [
+        "Росма"
+      ],
+      "drive_folder_id": "1j7_GU_lcoHVvLMnm3D9T8NySRRIfqrkn",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1j7_GU_lcoHVvLMnm3D9T8NySRRIfqrkn",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "16d-EaBjbAvb_qPWR7mJeCPRVGZkzhDlf",
+        "Аналитика (АТС)": "1JQzlNG_W1cbjCFwBPW5ikQhJHtDAO0nG",
+        "Внедрение": "1e4XoNVu7G2CSfsyXu-IqQA8UtukmCWAs",
+        "Входящие от клиента": "1ZQghD1RWnKgGZrXKzlr1sHTtiWP2u4Cx",
+        "Финальные файлы": "1IBmKCWJ-uR5IlURby4_ZxRKgMJalfqyg"
+      }
+    },
+    {
+      "name": "Северавто",
+      "rg": "РГ1",
+      "aliases": [
+        "Северавто"
+      ],
+      "drive_folder_id": "19rk8GFeCye-KKNhEWrN82FBrhnYkX2bB",
+      "drive_folder_url": "https://drive.google.com/drive/folders/19rk8GFeCye-KKNhEWrN82FBrhnYkX2bB",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1O6rT6zoh_1nZK7gekMfNrXeQDAo91Yl3",
+        "Аналитика (АТС)": "1AE_7rdsoMDVWIzVvtvc95cIPwqwjHOzh",
+        "Внедрение": "1g4nh8AIMVj2rmcCzmNICENtf5mZWg54k",
+        "Входящие от клиента": "1LAI83KAqv1wxuf5X7djbHBg_12gLElZ8",
+        "Финальные файлы": "1YWQ9dIPjHtAu8NkbttK9bdLhZQ4LD_dl"
+      }
+    },
+    {
+      "name": "Сибтехнострой (Стс)",
+      "rg": "РГ1",
+      "aliases": [
+        "Сибтехнострой (Стс)",
+        "Сибтехнострой"
+      ],
+      "drive_folder_id": "1kud82MgNjHeiyelC0nUQWM_-7UXy8JZp",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1kud82MgNjHeiyelC0nUQWM_-7UXy8JZp",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1an8-Yz8SrQHS7tz3U-SBs6KMOo4cgypC",
+        "Аналитика (АТС)": "1Uf0bo84hMhq2u4dZ_Bxd_9HB3IMa3-yE",
+        "Внедрение": "1Anf0YEZga-N8OG-xWh6wFYQOVIWnl2Qw",
+        "Входящие от клиента": "1DxlVK6-uKm8iz1Qd6wPKWDMV0AjuJmel",
+        "Финальные файлы": "1DnpujvdBujqc-glop7EbxLIN4b9b-kwe"
+      }
+    },
+    {
+      "name": "Текос (Исследование)",
+      "rg": "РГ1",
+      "aliases": [
+        "Текос (Исследование)",
+        "Текос"
+      ],
+      "drive_folder_id": "17pHSLXtj58xyqHKCNzXzPRvnCdvmLdbE",
+      "drive_folder_url": "https://drive.google.com/drive/folders/17pHSLXtj58xyqHKCNzXzPRvnCdvmLdbE",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "10sTJ9uJDjj0bNqP6wS69wkeg9eQaSm1d",
+        "Аналитика (АТС)": "13MA3P8_gZJPpffuQ4K-YBM3_oFvcrs-9",
+        "Внедрение": "1FA2eCU3O_tc-zLXagzJ3QHkQQsFUl1ho",
+        "Входящие от клиента": "1zCmzEFLOrLXM_Oh6Wn4hBW8Nsz-K_cfR",
+        "Финальные файлы": "1pEPhf_xm0UstNEe-dmbhTQRytXWpWUFW"
+      }
+    },
+    {
+      "name": "Теплопоток (Абонентка)",
+      "rg": "РГ1",
+      "aliases": [
+        "Теплопоток (Абонентка)",
+        "Теплопоток"
+      ],
+      "drive_folder_id": "1mjtVs5sMLXX-8cJ5ZbdN2OdBMVUVnLRn",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1mjtVs5sMLXX-8cJ5ZbdN2OdBMVUVnLRn",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "18avbcIA8pH5vNqV4S_UruHx7Z7957UHx",
+        "Аналитика (АТС)": "1Xf-saSXADayi9lurDTWYQ1rDyV1Ufu5q",
+        "Внедрение": "1Rmej4GBK4iiborFvqAh0NVvNBrt2Gh-8",
+        "Входящие от клиента": "1pZDfOoBMatu1wDd_ZNmDw1Upuvoab4q3",
+        "Финальные файлы": "11jWB5WK17hPDxVcTvGXK8-dOGRJu-YxK"
+      }
+    },
+    {
+      "name": "Терра. Lean + Hr",
+      "rg": "РГ1",
+      "aliases": [
+        "Терра. Lean + Hr"
+      ],
+      "drive_folder_id": "196n6sEaWUk7f98VA0Muh1GdI4nyON-tq",
+      "drive_folder_url": "https://drive.google.com/drive/folders/196n6sEaWUk7f98VA0Muh1GdI4nyON-tq",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1r3p1qMqn7Th5Y2u4s23HSrtJiHXphWZr",
+        "Аналитика (АТС)": "18M5_KlkZ_WcPutOp1HyKtXnwjhfKL0Ks",
+        "Внедрение": "1eZ9HoF7OnQ-w-Yj6quiyhJCKA7m_xHKX",
+        "Входящие от клиента": "1mtTA4rMnN6wr8ugfsYzVmjJQ35nHeFyV",
+        "Финальные файлы": "1fZmFRKzlZnvm-OdFoM6SjzUhP0b0mAMK"
+      }
+    },
+    {
+      "name": "Транзитсити",
+      "rg": "РГ1",
+      "aliases": [
+        "Транзитсити"
+      ],
+      "drive_folder_id": "15koDewjMctVXdEOl39wHiF-bKXjGEyOT",
+      "drive_folder_url": "https://drive.google.com/drive/folders/15koDewjMctVXdEOl39wHiF-bKXjGEyOT",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1qXwp8BVTCe9_iTnbNNpqkOuitrJL2d1N",
+        "Аналитика (АТС)": "1kOalno41qyO63vB2XJJEa6kkkvPm5-DK",
+        "Внедрение": "1CuxdGX64IPIv-i3ugErr2y4cMDsu25cR",
+        "Входящие от клиента": "123F3fC0HhWHGbVhqRIXhiNszmnNlGmrd",
+        "Финальные файлы": "141PiTOQiiWh_6UcqYp8J3V-YdQ_FYgGU"
+      }
+    },
+    {
+      "name": "Транскемикл Сессия",
+      "rg": "РГ1",
+      "aliases": [
+        "Транскемикл Сессия"
+      ],
+      "drive_folder_id": "1lHd802gEXaQ7v8FPet2fE6j--FS7kACG",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1lHd802gEXaQ7v8FPet2fE6j--FS7kACG",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1by0_8cvptnoNnWjpkNhveL3OLClynTeU",
+        "Аналитика (АТС)": "1L3rGuV3Vz-cMH277LeX7N1meus60XU96",
+        "Внедрение": "1YxGZk_UF1pNCfvAllTejmNj-0dyEduaL",
+        "Входящие от клиента": "1ewJV_Kft9VwJtHxu9Bv7ldnS1Bu5vPW5",
+        "Финальные файлы": "1Zk6qWD6jVzPXa93A63VtJD1memXmaLcX"
+      }
+    },
+    {
+      "name": "Финго",
+      "rg": "РГ1",
+      "aliases": [
+        "Финго"
+      ],
+      "drive_folder_id": "1XBrQB_ccInPZbDRtOx9G9xxCDYfWDRue",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1XBrQB_ccInPZbDRtOx9G9xxCDYfWDRue",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1kkt-iwVzKGtBhzdw7L51ARB_k37vtzGg",
+        "Аналитика (АТС)": "1eVEpgLGT5fRyDcPALczB1qAQCWgi18AP",
+        "Внедрение": "1O4oH9kL6eCwpJtahRX6qpNzPq9MpizzE",
+        "Входящие от клиента": "1v0vlz8-VGxciQRFGQVT9txG53apPEfZq",
+        "Финальные файлы": "1Vgnm6ookxqDz0zDAYhR8XciizBnjsSaI"
+      }
+    },
+    {
+      "name": "Финестра",
+      "rg": "РГ1",
+      "aliases": [
+        "Финестра"
+      ],
+      "drive_folder_id": "16LQ5Os0b8BXVGjOqBwLfMnFif1ynZM47",
+      "drive_folder_url": "https://drive.google.com/drive/folders/16LQ5Os0b8BXVGjOqBwLfMnFif1ynZM47",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1SPyhNOa3q6NSB2zvEt4-65KMKy7gvNyi",
+        "Аналитика (АТС)": "1YeR823e3vNN-Bf4quufqAMtgI9rMMlYb",
+        "Внедрение": "1Bokz7GX2naP4EX6C1xYALibKiPsKZGg2",
+        "Входящие от клиента": "1g2Fr7jXtWMyojJ9fY8qMFBFmpxCsfXCC",
+        "Финальные файлы": "1gMgC7dSv1YEusvRLwpiTJMn__amo9MRO"
+      }
+    },
+    {
+      "name": "Фортепьяно",
+      "rg": "РГ1",
+      "aliases": [
+        "Фортепьяно"
+      ],
+      "drive_folder_id": "1Bz-83stOSmvPFSLqAIZVdbN1yoJ0EwJo",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1Bz-83stOSmvPFSLqAIZVdbN1yoJ0EwJo",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1-RuevayYiBu46U8DIjd-bxlUIurnoepM",
+        "Аналитика (АТС)": "1LUtPEpMfZNaEjTH6yZbvIvZUNlTR8G81",
+        "Внедрение": "1su_Bx8Kr_FR9nKQe_7VmSFoo1-OmH-Di",
+        "Входящие от клиента": "14m4MQkLWtMlTCgxyfQN52uoDRCAsNVK_",
+        "Финальные файлы": "1xH0CXOIt2jiZC7-JAKHLOl-CHptsexE1"
+      }
+    },
+    {
+      "name": "Х5-Транспорт",
+      "rg": "РГ1",
+      "aliases": [
+        "Х5-Транспорт"
+      ],
+      "drive_folder_id": "1qYSpsycmmrr0U37jAOvtNtFucB1j6HbU",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1qYSpsycmmrr0U37jAOvtNtFucB1j6HbU",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1yGYXttbN4YXTXBl_m8wxoPmkNMqi_9I1",
+        "Аналитика (АТС)": "1rH8xsNeaZO8LT4aY7Na-8W9Hz5dw1GlW",
+        "Внедрение": "1PMl-SRBIPMdTuGyks8YbT9I9JN-pgJZn",
+        "Входящие от клиента": "17Gb7rCsYb2GCuC_sannRgbkFJidG50-e",
+        "Финальные файлы": "1cyXBU6MTot3qivyRrEL5UlKZ-6QjXmHL"
+      }
+    },
+    {
+      "name": "075G",
+      "rg": "РГ2",
+      "aliases": [
+        "075G"
+      ],
+      "drive_folder_id": "1C5iA3VZ3IQbX_WGX7RbFiGJ7EQyU4qIB",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1C5iA3VZ3IQbX_WGX7RbFiGJ7EQyU4qIB",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1E22omwUiiV806s99bvuL_OLcPSa_JqEU",
+        "Входящие от клиента": "1CR1OJHG64R5pvRHUWqJB8Sf0-yUkEuRr",
+        "Аналитика (АТС)": "1jgxZ9G1XWVrF9EUhomLk339-SV2zgYjc",
+        "Внедрение": "1cucbh6fCPBDl85QbflO1dNFgUd88wrhO",
+        "Финальные файлы": "1NC1MVVAyGvQ-ooYfZoixad6UYW3WZsmb",
+        "075G. Административные документы": "1X1MrJxu2z1M_xChkgZLOLS2gpdM1kW_W",
+        "075G. Аналитика (АТС)": "1fcA5bbGj3yYtS57SGx3ZPxxKJ92zmUlL",
+        "075G. Внедрение": "1TW1uBIroLqrgWpVsa-ppefH2Lyv1zw60",
+        "075G. Входящие от клиента": "1TaYnppC9dN3tbidhXQYOqaOT9FoofIUj",
+        "075G. Финальные файлы": "1OosX8ffYpbpfBsRwlnDg6mupsZ8u1Qus"
+      }
+    },
+    {
+      "name": "Abis / Абис",
+      "rg": "РГ2",
+      "aliases": [
+        "Abis / Абис",
+        "Abis",
+        "Абис"
+      ],
+      "drive_folder_id": "1pqjrUGwpA85GQ5Gds0HUnTVqCCU_31E1",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1pqjrUGwpA85GQ5Gds0HUnTVqCCU_31E1",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1YMP74AmX49iaq6iKhLSfCgIjPcS-KUvh",
+        "Входящие от клиента": "1-X53boLtvzXQbELNSNMLQw-Szq-UfHJL",
+        "Аналитика (АТС)": "1f3voohlp7PVvQhq-G3uNrpOyEEuNmvF1",
+        "Внедрение": "1n43Q6QSmbVvFutV0qaAyj9MFwjPMxC-z",
+        "Финальные файлы": "100eo-lVkzHE3p8Pyw1rxNplnlPqMXP_F",
+        "Abis / Абис. Административные документы": "1hiSkp4PG7L3T_QIi8tDTyHZe7q8QOdOo",
+        "Abis / Абис. Аналитика (АТС)": "1TM46bp3unFj0O18ytTns7-bFZPO4DmYn",
+        "Abis / Абис. Внедрение": "1KJqNH_e-kD62TGatE1u50qfbpYXhUxCT",
+        "Abis / Абис. Входящие от клиента": "1AhOjGzpxgGBQTLOnCYmA8u-OOfG2Ksx8",
+        "Abis / Абис. Финальные файлы": "1ehH3FC5nj3qDHqCwe6yGWz5wfZz7EeP9"
+      }
+    },
+    {
+      "name": "Qubiq / Кубик",
+      "rg": "РГ2",
+      "aliases": [
+        "Qubiq / Кубик",
+        "Qubiq",
+        "Кубик"
+      ],
+      "drive_folder_id": "1eEyoG84PxC-MFMeuIORc_HQ1aoZCjZRk",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1eEyoG84PxC-MFMeuIORc_HQ1aoZCjZRk",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "ABM": "1pSP9037ZD1qil0hBCbGNboOeIC1Mmyjd",
+        "QUBIQ ": "1kUGFwQl3JYiE20VN18bYFid_PK7-bGBd",
+        "Административные документы": "1inHh8ZJI7YXM9DyWtQHozD7tPhpVl9tb",
+        "Аналитика (АТС)": "1TH0CfCSavJ9oWhfEbQNEo8IT5wS1Ee4G",
+        "Внедрение": "18E2JGx7DxRZLgEBscZw7dFvhKCzfzJiT",
+        "Входящие от клиента": "1UF22KqHzphvvlV58B-Y0ivN0f8-nD_lO",
+        "Финальные файлы": "1T7hzpvbNd-Vsu9R9i5m3N1aadRpEfaoW"
+      }
+    },
+    {
+      "name": "Skillspace / Скиллспейс",
+      "rg": "РГ2",
+      "aliases": [
+        "Skillspace / Скиллспейс",
+        "Skillspace",
+        "Скиллспейс"
+      ],
+      "drive_folder_id": "17PMkiCmC6xISi2gTNp4gxWtXdRtSgHVm",
+      "drive_folder_url": "https://drive.google.com/drive/folders/17PMkiCmC6xISi2gTNp4gxWtXdRtSgHVm",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1XqIvwuO_pLBAlJ535jG7jl2yBy0kiYPt",
+        "Аналитика (АТС)": "1NKKjWOqOm_iF3PKaAF1JhTcFnQWbAjYF",
+        "Внедрение": "1wOyRIS9xGavJcHc3Mbb3aogYLrlk0RjH",
+        "Входящие от клиента": "14wJru2gQhTB12m6g2sELtKSvsi17t7W9",
+        "Финальные файлы": "1KeMHjiLYhyc8Q4ogAGXYjf3zcDuI2eYY"
+      }
+    },
+    {
+      "name": "Абрау. Гтм",
+      "rg": "РГ2",
+      "aliases": [
+        "Абрау. Гтм"
+      ],
+      "drive_folder_id": "1_o7Ui1-4vm0-wd9Vcyo_GJR7So1M3A3u",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1_o7Ui1-4vm0-wd9Vcyo_GJR7So1M3A3u",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1jW3a9NkUabqZ7YpjM5zCR2a80ObbF_Yu",
+        "Аналитика (АТС)": "1linrcsECrLnvxOJpaSmoAkLGkRgNUODB",
+        "Внедрение": "1HL0TyX8u8Lam6En2b9ZRfZd-Bkyn4h3N",
+        "Входящие от клиента": "1hOzNBOB41tSVdz0i1nOBvlOgM5PdqyV5",
+        "Финальные файлы": "1fFozK-rcEuJlHiRtN2WH-A4GwAKcsEWq"
+      }
+    },
+    {
+      "name": "Адг",
+      "rg": "РГ2",
+      "aliases": [
+        "Адг"
+      ],
+      "drive_folder_id": "114bek3XEuvML8N9BWeFNLYEcKsO4b_bT",
+      "drive_folder_url": "https://drive.google.com/drive/folders/114bek3XEuvML8N9BWeFNLYEcKsO4b_bT",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "14YIwUcIvybDgh50_VeOQwhFAySosNXs_",
+        "Аналитика (АТС)": "1Pr_luSIOdXJLstADfaYsL1CcRNn5h4_v",
+        "Внедрение": "1quq-B4MC7QjRZwn7mBBVto6O2y-_gvsp",
+        "Входящие от клиента": "1CL-OfSd3vcZZV76RMww5WEg_O7TE2jvH",
+        "Финальные файлы": "16lP--4fg5_L2UljFDM-ipqEI2S7gIZIB"
+      }
+    },
+    {
+      "name": "Азбука Вкуса Hr",
+      "rg": "РГ2",
+      "aliases": [
+        "Азбука Вкуса Hr"
+      ],
+      "drive_folder_id": "1QCeSAQNHBcYZO6RX4DBpzcZYsLsIAYlb",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1QCeSAQNHBcYZO6RX4DBpzcZYsLsIAYlb",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1BpqB-iRwOmXh-0C7214qoEQMACjQX3Je",
+        "Аналитика (АТС)": "1bGMTMQD63bsqw0Drqmc-fm-GTFOWuDd6",
+        "Внедрение": "1CQd1QbyLoeLVRdobzn2E0JhOTyb99dGX",
+        "Входящие от клиента": "1J665kk8dUK8Pum_YI6fg8Kll1AzUR7zk",
+        "Финальные файлы": "1GhmYSqW5fgPQDngjDJrWHtRLYUhVIFR5"
+      }
+    },
+    {
+      "name": "Аюна",
+      "rg": "РГ2",
+      "aliases": [
+        "Аюна"
+      ],
+      "drive_folder_id": "1VzSQQ7G9b3_u_a0jgMIu3fLSx_WJuCKI",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1VzSQQ7G9b3_u_a0jgMIu3fLSx_WJuCKI",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1kp6dqAQdk2YvFXJLmlCll0HaM7TH8Opq",
+        "Аналитика (АТС)": "1a58uKhonwREp-wFTUOLvjVTT2F__RF-H",
+        "Внедрение": "1NNQjU9ZeOSQBTVBcCxwheCcOK-sBIxQM",
+        "Входящие от клиента": "1VoXYLJFgYQlzvADgkpT2FKgcNMCRKCIS",
+        "Финальные файлы": "1kwdpoprX2VYMm1jUk_OiJP3zEnyLkeK3"
+      }
+    },
+    {
+      "name": "Белый Кролик",
+      "rg": "РГ2",
+      "aliases": [
+        "Белый Кролик"
+      ],
+      "drive_folder_id": "1YeiLBJ25obKfHar5cXv4ji3uDJF3rz83",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1YeiLBJ25obKfHar5cXv4ji3uDJF3rz83",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "12U5EwHogjbYnn_hv6-LqHMHhdazw1Hla",
+        "Аналитика (АТС)": "1JwBuiLq_sQWM7atXceziWIsPSdHdGO5L",
+        "Внедрение": "1y_Q66J0SVW4ao4AVXftXzDHVyqd9wfmM",
+        "Входящие от клиента": "11gc3CH3YyRWEPsnVTY4N_PttneHgnMGb",
+        "Финальные файлы": "1cFTxLBnqHOy1cOo6pGfnH6mnLq3vWd6_"
+      }
+    },
+    {
+      "name": "Бургер Кинг / Burger King",
+      "rg": "РГ2",
+      "aliases": [
+        "БК",
+        "BK",
+        "ВК",
+        "Burger King",
+        "Бургер Кинг",
+        "BurgerKing",
+        "Бургер Кинг / Burger King"
+      ],
+      "drive_folder_id": "1mSJ07xivFL-kldygECkGpwHTIUis-7wh",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1mSJ07xivFL-kldygECkGpwHTIUis-7wh",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1qBVM_DGDHZBcedExbfX4HRT5JT4dFqjW",
+        "Аналитика (АТС)": "1XOSfal9wSa36J6RkH2mPpSVE-0Ttx3xp",
+        "Внедрение": "12L9MeLzaVXos7MRrVh0xdgHuThngF2kf",
+        "Входящие от клиента": "1m8QM1fHapkJybTMS_Ga7N7065wMdz_us",
+        "Финальные файлы": "178xILmqjYb0n6rrevdXloe9WnuBWjgpU"
+      }
+    },
+    {
+      "name": "Гармония Востока",
+      "rg": "РГ2",
+      "aliases": [
+        "Гармония Востока"
+      ],
+      "drive_folder_id": "1Vp_Sldp1Qv9B4XPjc8_ev8Ql2kgdFFWr",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1Vp_Sldp1Qv9B4XPjc8_ev8Ql2kgdFFWr",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1hT7Rp2_AmkvbUodNXXq5epsBVtSmXLwn",
+        "Аналитика (АТС)": "1wqT_YZA98AVVYDzOjPBK-u06F75o6Co_",
+        "Внедрение": "11Iu-nRkotXoIU_r1m3ZSqGVMQmMrDfor",
+        "Входящие от клиента": "1SSo_w6qdwYuOqgh_39ehL2HjlAPgEA7g",
+        "Финальные файлы": "1fR_gP7i9C_F5YtCzbF7JaksSj213XAAl"
+      }
+    },
+    {
+      "name": "Гармония востока",
+      "rg": "РГ2",
+      "aliases": [
+        "Гармония востока"
+      ],
+      "drive_folder_id": "1sjpH971qG54XYZxAMGacj2lY3Hd9Eiri",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1sjpH971qG54XYZxAMGacj2lY3Hd9Eiri",
+      "default_subfolder": null,
+      "subfolders": {
+        "РГ2": "1XE11pOrLaDwWamul3njuH24d9VlKDQ5Y"
+      }
+    },
+    {
+      "name": "Горный Воздух",
+      "rg": "РГ2",
+      "aliases": [
+        "Горный Воздух"
+      ],
+      "drive_folder_id": "1uri9VGU8cxyKgHMCbJwv01d2I4WSR3Rw",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1uri9VGU8cxyKgHMCbJwv01d2I4WSR3Rw",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1rpjiTv9DXcag90EpdjfEBlHD-lggFWX4",
+        "Аналитика (АТС)": "1MTrtEUhO_H_WQkHXuuHLsqLAtjr33G2S",
+        "Внедрение": "1kgX1N_ghh7S9RGRa8dPSFq1YTFcQQuhe",
+        "Входящие от клиента": "1I2DxD7V0VGSohgCWBVNuGS5cXP7aU1ds",
+        "Финальные файлы": "1TeyZK9JPwOpBih2TmieM1E2jUR5xRQrm"
+      }
+    },
+    {
+      "name": "Деафон",
+      "rg": "РГ2",
+      "aliases": [
+        "Деафон"
+      ],
+      "drive_folder_id": "1GohbS-dFqPiNS7JYGkT7C165xw3taLI2",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1GohbS-dFqPiNS7JYGkT7C165xw3taLI2",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1r8XSHisrXdoZxYMW8ElkDd72xFZnk5wA",
+        "Аналитика (АТС)": "1V3aaXEPqnTWBp1KOqPMUuBXf6GdNFskY",
+        "Внедрение": "1LqU0R9RIn1BSklDiG9C8YnGwQAlV55ic",
+        "Входящие от клиента": "1tPWWpKRm9FbocPoiOvQ6PNnEgTbpz6Mo",
+        "Финальные файлы": "1KyQhOHI8rJikLqz5C-YJArHbI_S-nR7l"
+      }
+    },
+    {
+      "name": "Декор+ / Абис Импорт",
+      "rg": "РГ2",
+      "aliases": [
+        "Декор+ / Абис Импорт",
+        "Абис Импорт",
+        "Декор+"
+      ],
+      "drive_folder_id": "1tzI5Xg5ECczmk0sJFAd2L89jEAMePTtF",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1tzI5Xg5ECczmk0sJFAd2L89jEAMePTtF",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "182UCddOGEZ40VYFZvVJjlvIY16rfmEtC",
+        "Аналитика (АТС)": "1DQvHD5yrsU_cNmPaz5wDfCS4o_KnzpuE",
+        "Внедрение": "1yg7ixkEErRSptrkfy7cFWz4vpGPqWt-e",
+        "Входящие от клиента": "1ui0DFPpNTNkBxX0ntrpEpKvKV5ZdDrcz",
+        "Финальные файлы": "1JAqaJCtUKl1wmRQ2Ve-Rpe1fhAmmY9PV"
+      }
+    },
+    {
+      "name": "Дзорт",
+      "rg": "РГ2",
+      "aliases": [
+        "Дзорт"
+      ],
+      "drive_folder_id": "1qezFnL-Dgm1Ps3TuOtBdhGVPh_cxe4j_",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1qezFnL-Dgm1Ps3TuOtBdhGVPh_cxe4j_",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1c6enqr895ZxzX_TXKs6TtaDYGF5c8NQD",
+        "Аналитика (АТС)": "1wxDXAqjwc1DzpUVHC4GyzPYB3-DFYR93",
+        "Внедрение": "1a8-BhOyCRUiUGUNfuD_DvqPaw2j09qwU",
+        "Входящие от клиента": "16XgXqf2ga5qAPqBE8hwkAGA7cAaQSYhy",
+        "Финальные файлы": "1kR6C1F48EOX-LctTQzt0sWhVbZUcCNr6",
+        "Записи встреч": "12yJy4fbZh3f0iudVaiBts5ZtvGeyKi8f"
+      }
+    },
+    {
+      "name": "Кронус. Оргструктура",
+      "rg": "РГ2",
+      "aliases": [
+        "Кронус. Оргструктура"
+      ],
+      "drive_folder_id": "1EbP5sGoOFkiKfIRBsCR_FQRr7ZbTrxhB",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1EbP5sGoOFkiKfIRBsCR_FQRr7ZbTrxhB",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1MfCS-h3BjM24BDzNrMFlG5AxSDGPpxVr",
+        "Аналитика (АТС)": "1QAYpw3k8dOmG_3UppsN3jWNcgODpaxxI",
+        "Внедрение": "1VMYMw1pnBVzGQsHyD3F1b-lW9T9haAWz",
+        "Входящие от клиента": "1n6sbzGVTcd03-xbB1N_VJfMKgsM1Y8b6",
+        "Финальные файлы": "1QPH1axqMTR8RAcU_lO9NZ5wkYqi5fgfo"
+      }
+    },
+    {
+      "name": "Медицинский Центр 21 Век",
+      "rg": "РГ2",
+      "aliases": [
+        "Медицинский Центр 21 Век"
+      ],
+      "drive_folder_id": "1u3gQeRa5phrMItncvJ_uFcIgjti73Qbw",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1u3gQeRa5phrMItncvJ_uFcIgjti73Qbw",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1kwzocN6vM28Opg9G2WDArR2IwjPP0mqr",
+        "Аналитика (АТС)": "1FcNm26x_SBM88WGSzYc16k_L7sugXAP4",
+        "Внедрение": "1ynirzh2ZO62v4PonC-gTvTSBSBAGEcVB",
+        "Входящие от клиента": "1a6TDzmi4JZnBmE63eTkBJ04YiQAh2_9H",
+        "Финальные файлы": "1VtkwKQhJai4oSecz5ZOSfueBksTfZ9E2"
+      }
+    },
+    {
+      "name": "Минстрой. Модель Оценки",
+      "rg": "РГ2",
+      "aliases": [
+        "Минстрой. Модель Оценки"
+      ],
+      "drive_folder_id": "1IL-n70D9bMW7HHoHjcVCL_LaN3nrIHAB",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1IL-n70D9bMW7HHoHjcVCL_LaN3nrIHAB",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "10i9GeiAmLrKMiO6At62PYDwaX7wJPPwN",
+        "Аналитика (АТС)": "1nkqWaa81-Q9zyQEB4_T0K8FVvolYIZlE",
+        "Внедрение": "1S9Lt2zL5LhWmvl8IX7kM8AABdiUUSoKz",
+        "Входящие от клиента": "1NFeswRyZkWEGqQGyJeI7QnI96vbUMBqH",
+        "Финальные файлы": "1FwSxDRJXB1z24MqZxcTZTK3jyEPLaLXd"
+      }
+    },
+    {
+      "name": "Мис",
+      "rg": "РГ2",
+      "aliases": [
+        "Мис"
+      ],
+      "drive_folder_id": "1HX-Xr5Q_KwQRPLPDQed3lE7uvH1WbUwX",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1HX-Xr5Q_KwQRPLPDQed3lE7uvH1WbUwX",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Документы 1 этапа работ (АТС)": "1naFIaQ3UmrmbJ9TwzX13G1Zl3DkYTGZZ",
+        "Административные документы": "18SI6oJcK9cg1s-5x5UKNAy_1KO2_uz6C",
+        "Аналитика (АТС)": "17XMYU8Bzj9Ztilyvvg6j-pJh6u9dcX-s",
+        "Внедрение": "1Jdcifwe_EgBWJpLBEDd-241wnWbO7SZy",
+        "Входящие от клиента": "1LPCSjyH0VoUtdeIogB77fK4TwPNcmuJ6",
+        "Финальные файлы": "11gPsnS5Kbes-01ukt8URjm2WYd_eTxdg"
+      }
+    },
+    {
+      "name": "Мрт Центр",
+      "rg": "РГ2",
+      "aliases": [
+        "Мрт Центр"
+      ],
+      "drive_folder_id": "1B7c0O1CPv9HGSuh80ki2-UUZPjdnHMm3",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1B7c0O1CPv9HGSuh80ki2-UUZPjdnHMm3",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1fSeLfy6vWY6NfJse-YF_qar83lJycSUX",
+        "Аналитика (АТС)": "13SD-DylYx4t-B5Ue7-M_YNOiSXf7zatU",
+        "Внедрение": "1E7RvB-jWYPm5FmjxZRB2QVTSjBtibhV3",
+        "Входящие от клиента": "1GMnH7ha4RRXUyQtqFg3nXduybsnMDuB8",
+        "Финальные файлы": "1-nC7ndhCgD9IL2exx1zGpmrSuvK7gQg4"
+      }
+    },
+    {
+      "name": "Мясной Гурман (Марстрат)",
+      "rg": "РГ2",
+      "aliases": [
+        "Мясной Гурман (Марстрат)",
+        "Мясной Гурман"
+      ],
+      "drive_folder_id": "1PWiylx_9yTrvP19MpEKMqlso24cM0_I5",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1PWiylx_9yTrvP19MpEKMqlso24cM0_I5",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1CrpiENBRsrGet430oA0CXPNnnn8bFLit",
+        "Аналитика (АТС)": "1XKsjGHRgvHwiDGglUZKGfwdk9V2t1mDH",
+        "Внедрение": "1qtWS2_8HkJ2DbhjvzGYquNH5c9qWqBuc",
+        "Входящие от клиента": "1boddrHVAHc8UXoiYcnjrWTSu1NMIrpeN",
+        "Финальные файлы": "1CNm_xsr0Y3-M4SUCV50rWtkR5gfjp0B_"
+      }
+    },
+    {
+      "name": "Ниц",
+      "rg": "РГ2",
+      "aliases": [
+        "Ниц"
+      ],
+      "drive_folder_id": "1Dd3Q1C7Mo52elDZgFOHvY991DeNXpy3H",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1Dd3Q1C7Mo52elDZgFOHvY991DeNXpy3H",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1pzjxz-sDK-NIlKQGHP1ACRBNkS6D_EzJ",
+        "Аналитика (АТС)": "1DIDIfySLW8yer2WP4GKxEbikA72fEsvX",
+        "Внедрение": "1gFBqDr_QpkyS6hmOIFOSSCKdmxiMb4D_",
+        "Входящие от клиента": "1Q0Scd-JJogeyQkwZz2uJf8iSqk9UiCNZ",
+        "Финальные файлы": "1UzEqK7UQKlGbi0qoKPbJHKvtbUiTW7M8"
+      }
+    },
+    {
+      "name": "Олжас / Agroinn",
+      "rg": "РГ2",
+      "aliases": [
+        "Олжас / Agroinn",
+        "Agroinn",
+        "Олжас"
+      ],
+      "drive_folder_id": "1EB04Ui9yV0Yqa9pX4yGoqE9aHuKcLaNV",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1EB04Ui9yV0Yqa9pX4yGoqE9aHuKcLaNV",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "AgoInn + PP (общая папка)": "1f-pNTtgKOnLO6YrHhgm472-7GOKJmib0",
+        "Административные документы": "1KtzpQHBD4iQIS-uGRTSTsfbmPTG5_YXr",
+        "Аналитика (АТС)": "10i3QMoW9p2EBhPIQFJVREibgioN3_46p",
+        "Внедрение": "1VmJmxmzCvyKiR7Mgr5cANSYEuiIkoQpw",
+        "Входящие от клиента": "1Yrr1yawbX9Z2nIXi0BASjhfMu8c6YtT3",
+        "Финальные файлы": "1gS1YxnD1DkHuWo_NmEOXqE25TNMVDykb"
+      }
+    },
+    {
+      "name": "Охана",
+      "rg": "РГ2",
+      "aliases": [
+        "Охана"
+      ],
+      "drive_folder_id": "1RAyk2McJQwtJV4gw6Uw4YFlB0W6tNKXG",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1RAyk2McJQwtJV4gw6Uw4YFlB0W6tNKXG",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1fooGJHWoPRFpDFhPvzh3TslfbCFD9JJ5",
+        "Аналитика (АТС)": "11h-sblh20es1rAbPtc4EGURYOX8S-tuw",
+        "Внедрение": "1XhQ2LPuzHBtmNH36A-cUPs80buZbyaA_",
+        "Входящие от клиента": "1gtYZVI8-4E8GaSqPGeAtaFNTSj_NNprE",
+        "Финальные файлы": "1ELIzBSyLSEcJcTOfd02PKlD0jZ-B_MHr"
+      }
+    },
+    {
+      "name": "Парк Птиц",
+      "rg": "РГ2",
+      "aliases": [
+        "Парк Птиц"
+      ],
+      "drive_folder_id": "1l4FT5bezlDr2nf3PMn1PnFEyfOz1qgWo",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1l4FT5bezlDr2nf3PMn1PnFEyfOz1qgWo",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1DdKx0MSk9hgEhBlkNH9Qvs3ajcoXgtW3",
+        "Аналитика (АТС)": "13CF5LQ5VE2v7STOpeLdkd0tkFOZ-HQlR",
+        "Внедрение": "16kplXHWiPOZdjOCPJkSxc1yrvAOGL8Ds",
+        "Входящие от клиента": "1bGhIWY7kxaF58ibZfc4-r7nk1ChZGp0j",
+        "Финальные файлы": "1KKF7sXLRwKoxRNAQxPUlD3ZUyWWMeOaF"
+      }
+    },
+    {
+      "name": "Росэкопласт ( Pro Bono )",
+      "rg": "РГ2",
+      "aliases": [
+        "Росэкопласт ( Pro Bono )",
+        "Росэкопласт"
+      ],
+      "drive_folder_id": "1PIKLfs-V6IIb7e39NOm85QW-0U4HEA6l",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1PIKLfs-V6IIb7e39NOm85QW-0U4HEA6l",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1aldUig06rIJzvhm1WrfHTyXqJCbZXY2G",
+        "Аналитика (АТС)": "1beIs1ZmkrllsXkpDBKNermTKx9GxLQCJ",
+        "Внедрение": "1LXV_FMt0qQ4qYuwChFrqjxTXEN_b_tIt",
+        "Входящие от клиента": "1nDW1kMoMyD7S9k48z23JdKKaLg6t20xY",
+        "Финальные файлы": "1NTCQsxvFM7FlzDWd2paHuAXySNXzrjMm"
+      }
+    },
+    {
+      "name": "Румяный Каравай",
+      "rg": "РГ2",
+      "aliases": [
+        "Румяный Каравай"
+      ],
+      "drive_folder_id": "1dFsMyZvaFejgrG9E4MCy6_kVoEqnmKoU",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1dFsMyZvaFejgrG9E4MCy6_kVoEqnmKoU",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "16OBVbRlDYOnRs5BE8Cz1uG6AuuhLPQe3",
+        "Аналитика (АТС)": "17-KOHHBrOm5h3VZFFcgjiOYusoGxZuwz",
+        "Внедрение": "1ijY4sIDq092EKmi0vPYdOC0ij3s_Kpcb",
+        "Входящие от клиента": "1DoWucenzEgpfaHkK_gXz8dIlRgpcmdXO",
+        "Финальные файлы": "1SL56v4_HplC2wShjeu9epeKQLYRgvhdJ"
+      }
+    },
+    {
+      "name": "Салюс Легал",
+      "rg": "РГ2",
+      "aliases": [
+        "Салюс Легал"
+      ],
+      "drive_folder_id": "1MbQCcxyzM4-yJyNgsEdGZxdp916fOrTm",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1MbQCcxyzM4-yJyNgsEdGZxdp916fOrTm",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "12Qyh7-TorUTj_1BYHyswU43m0Pv8kDJZ",
+        "Аналитика (АТС)": "1FuNU07BC08LuBtm7mJ2p88rzzkTG-cDN",
+        "Внедрение": "1wB6f0k-zB2bZxvOCea_U4L2l8zJc9WdE",
+        "Входящие от клиента": "1VQc8N4kGV8gVOZ_7WfNzMrSvmEFfSFkY",
+        "Финальные файлы": "1Qwl2NO3QYZwBpMkomrw1FUQWmBm4IA0b"
+      }
+    },
+    {
+      "name": "Сантерра",
+      "rg": "РГ2",
+      "aliases": [
+        "Сантерра"
+      ],
+      "drive_folder_id": "1YlORqdvjZ1FJn4uXMAzUw7qBtwd0o6YP",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1YlORqdvjZ1FJn4uXMAzUw7qBtwd0o6YP",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1goJggryfcoCHidPTkRGcLurWQbg6jKVh",
+        "Аналитика (АТС)": "1P_09pklHmSeMUTklX8oHS_aPFmWBbrNl",
+        "Внедрение": "1VqIG2OXhcby-5tOlNvw90i3ItrlyIvIn",
+        "Входящие от клиента": "1aLSKtlSAjoS4MerlfPHeGHrTQbfRXePG",
+        "Финальные файлы": "1ceVyAQFDjyyDPa3MgZXp-SWg3OQt-K83"
+      }
+    },
+    {
+      "name": "Саргис",
+      "rg": "РГ2",
+      "aliases": [
+        "Саргис"
+      ],
+      "drive_folder_id": "1XCmbrLA0LKtzFB6pRaYhuCjYpbyb7JP_",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1XCmbrLA0LKtzFB6pRaYhuCjYpbyb7JP_",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1L2lfMPWozN122T4r__STo0zKkr-_jsgj",
+        "Аналитика (АТС)": "1gRkmeVfhEwZLXUpXMbk3QGMN6eyEeVjD",
+        "Внедрение": "15zl7o-k3m_9eH9UFpMBIBRqMCGkuW5q_",
+        "Входящие от клиента": "1t_TSefn_q_RFgDbGwxCJDC0N07bkdrk-",
+        "Финальные файлы": "1Qwc60_YdiaHNbJ7C0kSGW_VDqN8lzJhP"
+      }
+    },
+    {
+      "name": "Севенком",
+      "rg": "РГ2",
+      "aliases": [
+        "Севенком"
+      ],
+      "drive_folder_id": "1t-Kz3ZdHnv34-jz6AlBrnjvsY0EldbEu",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1t-Kz3ZdHnv34-jz6AlBrnjvsY0EldbEu",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1vCWDaNkkHdAUWzI4EraQVPiHNm9x37FW",
+        "Аналитика (АТС)": "1MNzZlHR4xeNnEcIcoQ2zMBCcfPR4CQ-W",
+        "Внедрение": "1n4x-4GiZilU_ZznUneyHiRlw4WeH3l9h",
+        "Входящие от клиента": "1R0H_FjivAuBqWdPhA2DLvCcqBKtex_Ly",
+        "Финальные файлы": "1mVbwBpMb6G7jFqJYoyboKdJ3xklHOO7N"
+      }
+    },
+    {
+      "name": "Скб Контур",
+      "rg": "РГ2",
+      "aliases": [
+        "Скб Контур"
+      ],
+      "drive_folder_id": "1vZ7SSoXBF_2UFgNuyUfdyrUTYBWAtN6a",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1vZ7SSoXBF_2UFgNuyUfdyrUTYBWAtN6a",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1AqSORK9b9dL7HXJgpOT9nAgoid5hMLpX",
+        "Аналитика (АТС)": "1ySSe0bhfUytqGPjGkcaXLvBh673N52W6",
+        "Внедрение": "1P82t22hnFU7cn9YD0qRSbEBU4HQ-0wjO",
+        "Входящие от клиента": "1qfauoWC04olgJyw3WkBWEDg1kJO5U58Y",
+        "Финальные файлы": "1b9sNkfnFP1I0tTrm2VoxhXyFd2L9MFg1"
+      }
+    },
+    {
+      "name": "Тд Комплект",
+      "rg": "РГ2",
+      "aliases": [
+        "ТД Комплект",
+        "ТДК",
+        "Комплект",
+        "TDKomplekt",
+        "Тд Комплект"
+      ],
       "drive_folder_id": "1eCW9FZjd3790s-lGxnE2n-inXeQAHk5B",
       "drive_folder_url": "https://drive.google.com/drive/folders/1eCW9FZjd3790s-lGxnE2n-inXeQAHk5B",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1zI7KB7vsaA77BumEJMXB3bOO4p5IjCBt",
+        "Аналитика (АТС)": "1KSXnsxFDQi-BXlWJGMteExpIYpB8ed3d",
+        "Внедрение": "1zoeY7DJY9PqXvplApBAzCVyhDkcYrEuC",
+        "Входящие от клиента": "1QW0LvzX0KVziV6z33OEJctXhjjWbKk2m",
+        "Финальные файлы": "14py2V41MF5r7-P6jqcb8KQos96x8qt6g"
+      }
+    },
+    {
+      "name": "Термекс. Найм Ceo",
+      "rg": "РГ2",
+      "aliases": [
+        "Термекс. Найм Ceo"
+      ],
+      "drive_folder_id": "1NATyIL9nVAhbU254huZ9ouQ6wZMWbGx3",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1NATyIL9nVAhbU254huZ9ouQ6wZMWbGx3",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "19sr19lcnheOh-9gSDKDp6I7EoDtTloUa",
+        "Аналитика (АТС)": "1efeQTJTdqtqlo-QF7EOjIfwM_SImwbgS",
+        "Внедрение": "1VaGMuzhBnJZNeqmss_2qTLxEc8Pd6NpW",
+        "Входящие от клиента": "1r1nT9drxwKSSbBtVdKIHAfqL6JcK4p_U",
+        "Финальные файлы": "19gAjUjoRw94MFMoD5mtnhISshQd6j_sr"
+      }
+    },
+    {
+      "name": "Тофс",
+      "rg": "РГ2",
+      "aliases": [
+        "Тофс"
+      ],
+      "drive_folder_id": "1XnT3_f_3yP7Ss3emcrI44EFVmksHEMk_",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1XnT3_f_3yP7Ss3emcrI44EFVmksHEMk_",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1ILT_wQog6CdX9AAEuHhsujM7_cLd_cqT",
+        "Аналитика (АТС)": "1FHcEezRForQnyF-P1rw9rIE4WOs4idbJ",
+        "Внедрение": "1YiieiI5mVvKsHbSenocaAL3lSnSYRcoO",
+        "Входящие от клиента": "1trTuFNbZkw3TJKFleS5o9RBh2YxUqQIM",
+        "Финальные файлы": "10v4xZE4KyfinrE_J0cPMy4NtlY3UU28x"
+      }
+    },
+    {
+      "name": "Фитнес Формула 2",
+      "rg": "РГ2",
+      "aliases": [
+        "Фитнес Формула 2"
+      ],
+      "drive_folder_id": "1ghQGedGkpwAHR7S7Ps9fNhyakCBQCzfx",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1ghQGedGkpwAHR7S7Ps9fNhyakCBQCzfx",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1YZjenns9uofOILup64kWr0rcCh5vYX9A",
+        "Аналитика (АТС)": "1COF267GyM2igY9xj9g2tqzz68ms87PQk",
+        "Внедрение": "1M36J5Bl1OKYfBeD4Iqxecw5OFdGPJRTr",
+        "Входящие от клиента": "1TuVxsOSS94KDu3ufwxv014I2OSA3siN0",
+        "Финальные файлы": "17HiaW4_VfBAOlpPL1aJ1ZAM8x0ajIjyZ"
+      }
+    },
+    {
+      "name": "Фудкорт Рейсинг",
+      "rg": "РГ2",
+      "aliases": [
+        "Фудкорт Рейсинг"
+      ],
+      "drive_folder_id": "1blVDalCBxTHkjla_bUI8wjYoBYh14Ybo",
+      "drive_folder_url": "https://drive.google.com/drive/folders/1blVDalCBxTHkjla_bUI8wjYoBYh14Ybo",
       "default_subfolder": null,
-      "subfolders": {}
+      "subfolders": {
+        "Материалы второго этапа": "1G1BHpa3_AxSN-My5EdsJfDZHmqfnB4Mh",
+        "Финмодель": "1G4o2Ssw8Ci3QM7AjX6bEv26RSI0ra6sa"
+      }
+    },
+    {
+      "name": "Элевел",
+      "rg": "РГ2",
+      "aliases": [
+        "Элевел"
+      ],
+      "drive_folder_id": "12wQ2rfDyBdoNdB2LgvfX2a-cMrkIFYM5",
+      "drive_folder_url": "https://drive.google.com/drive/folders/12wQ2rfDyBdoNdB2LgvfX2a-cMrkIFYM5",
+      "default_subfolder": "Внедрение",
+      "subfolders": {
+        "Административные документы": "1c2kN3CqAEg4iS9TIMXzWr4YfJISIR-8o",
+        "Аналитика (АТС)": "1lAx9YSu1CWSEIaLlZJcT_kruUYH3ftzq",
+        "Внедрение": "14ePnjiIImPEJaSn9y9jU-uT12cX_thA7",
+        "Входящие от клиента": "1PSzfY2f5ATayhjd8_vNgVq9syx1Gac8c",
+        "Финальные файлы": "1e9FAWx0OCvR1QY35RDYKi81xkerH8_W9"
+      }
     }
   ]
 }

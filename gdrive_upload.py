@@ -25,6 +25,7 @@ from pathlib import Path
 
 from gdrive_lib import (
     detect_project,
+    discover_project_folder,
     get_access_token,
     load_project_map,
     upload_file,
@@ -70,10 +71,26 @@ def main() -> int:
         if not project:
             print(
                 f"Не смог определить проект по имени файла {local.name!r}.\n"
-                f"Передайте явно через --project.\n"
-                f"Доступные проекты: {[p['name'] for p in projects]}",
+                f"Ищу папку на Drive по словам из имени...",
                 file=sys.stderr,
             )
+            token = get_access_token()
+            cands = discover_project_folder(token, local.name)[:5]
+            if cands:
+                print("\nКандидаты:", file=sys.stderr)
+                for c in cands:
+                    flag = "★" if c["under_root"] else " "
+                    print(f"  {flag} {c['name']}  ({c['id']})", file=sys.stderr)
+                print(
+                    "\nПередайте --project '<имя>' если нашли нужного клиента,\n"
+                    "или запустите 'python3 rebuild_project_map.py' чтобы добавить его в реестр.",
+                    file=sys.stderr,
+                )
+            else:
+                print(
+                    "Ничего не нашёл. Передайте --project явно или добавьте проект в project_map.json.",
+                    file=sys.stderr,
+                )
             return 2
 
     # резолвим подпапку

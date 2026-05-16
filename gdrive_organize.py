@@ -26,6 +26,7 @@ import sys
 
 from gdrive_lib import (
     detect_project,
+    discover_project_folder,
     get_access_token,
     list_folder,
     load_project_map,
@@ -107,7 +108,28 @@ def main() -> int:
         print(f"\nНе определён проект ({len(unmatched)}):")
         for f in unmatched:
             print(f"  ? {f['name']}")
-        print("  (добавьте алиас в project_map.json или используйте gdrive_upload.py с явным проектом)")
+        # Discover-режим: для небольшого числа unmatched пробуем найти папку на Drive
+        if len(unmatched) <= 5 and not args.execute:
+            print("\nDiscover (поиск папок на Drive по словам из имени файла):")
+            for f in unmatched:
+                cands = discover_project_folder(token, f["name"])[:3]
+                if not cands:
+                    print(f"  {f['name']}: ничего не нашёл")
+                    continue
+                print(f"  {f['name']}:")
+                for c in cands:
+                    flag = "★" if c["under_root"] else " "
+                    print(f"    {flag} {c['name']}  ({c['id']})")
+            print(
+                "\n  ★ = лежит под '4. Производство'. Если нужный клиент здесь —\n"
+                "    запустите 'python3 rebuild_project_map.py' чтобы добавить его в реестр,\n"
+                "    либо используйте gdrive_upload.py --project '<имя>' для разовой заливки."
+            )
+        else:
+            print(
+                "  (добавьте алиас в project_map.json, запустите 'python3 rebuild_project_map.py',\n"
+                "   или используйте gdrive_upload.py с явным проектом)"
+            )
 
     if not args.execute:
         print("\nDry-run. Для реального перемещения добавьте --execute.")

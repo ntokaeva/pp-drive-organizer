@@ -16,6 +16,7 @@ from __future__ import annotations
 import json
 import mimetypes
 import os
+import re
 import ssl
 import urllib.parse
 import urllib.request
@@ -252,6 +253,75 @@ def load_project_map(path: str | Path | None = None) -> list[dict]:
     if path is None:
         path = Path(__file__).parent / "project_map.json"
     return json.loads(Path(path).read_text(encoding="utf-8"))["projects"]
+
+
+PROIZVODSTVO_ROOT_ID = "1LbbERfpfZ4O2Xa4OPPmP2rK4z6Rk5hxk"
+
+
+def discover_project_folder(
+    token: str,
+    name_hint: str,
+    root_id: str = PROIZVODSTVO_ROOT_ID,
+    min_len: int = 4,
+) -> list[dict]:
+    """Нечёткий поиск папки клиента в дереве 4. Производство по подсказке.
+
+    Берёт «значимые» слова из name_hint (>= min_len символов, без префиксов
+    типа БК/BK/Док и расширений) и для каждого слова делает Drive-search по
+    name contains '<слово>' с фильтром mimeType=folder. Возвращает кандидатов
+    с пометкой, лежат ли они под root_id (через path-проверку).
+
+    Применяется когда detect_project() вернул None — то есть клиента нет в
+    project_map.json, но папка на Drive скорее всего есть.
+    """
+    # Чистим от расширения, нумерации, типовых префиксов
+    cleaned = re.sub(r"\.\w{1,5}$", "", name_hint)  # расширение
+    cleaned = re.sub(r"^\d{4}[-_.]\d{2}[-_.]\d{2}[-_ ]*", "", cleaned)  # дата
+    # Разбиваем по разделителям
+    tokens = [t for t in re.split(r"[\s_.\-/]+", cleaned) if len(t) >= min_len]
+    # Убираем стоп-слова
+    stop = {"отчёт", "отчет", "версия", "финал", "draft", "final", "report", "итоги",
+            "встречи", "встреча", "follow", "артефакты", "дозвон", "руководство"}
+    tokens = [t for t in tokens if t.lower() not in stop]
+
+    seen_ids: set[str] = set()
+    candidates: list[dict] = []
+    for tok in tokens[:5]:
+        try:
+            found = find_folders_by_name(token, tok)
+        except Exception:
+            continue
+        for f in found:
+            if f["id"] in seen_ids:
+                continue
+            seen_ids.add(f["id"])
+            # под root_id ли?
+            under_root = _is_under(token, f["id"], root_id, max_hops=4)
+            candidates.append({**f, "matched_token": tok, "under_root": under_root})
+    # сначала под root, потом по длине совпавшего токена
+    candidates.sort(key=lambda x: (not x["under_root"], -len(x["matched_token"])))
+    return candidates
+
+
+def _is_under(token: str, folder_id: str, root_id: str, max_hops: int = 4) -> bool:
+    """Проверяет, является ли folder_id потомком root_id (поднимаясь по parents).
+    Ограничено max_hops чтобы не зацикливаться."""
+    cur = folder_id
+    for _ in range(max_hops):
+        if cur == root_id:
+            return True
+        try:
+            info = _api_get(token, f"/files/{cur}", {
+                "fields": "parents",
+                "supportsAllDrives": "true",
+            })
+        except Exception:
+            return False
+        parents = info.get("parents") or []
+        if not parents:
+            return False
+        cur = parents[0]
+    return cur == root_id
 
 
 def detect_project(filename: str, projects: list[dict]) -> dict | None:
