@@ -52,9 +52,19 @@ git clone https://github.com/ntokaeva/pp-drive-organizer.git
 cd pp-drive-organizer
 ```
 
-Дальше нужно настроить OAuth-токены к своему Google аккаунту — см.
-[setup_oauth.md](setup_oauth.md). После настройки появляется
-`~/.config/mcp-gdrive/tokens.json` и оба скрипта начинают работать.
+Дальше нужно настроить OAuth-токены к своему Google аккаунту. Самый простой
+способ — запустить интерактивный мастер:
+
+```bash
+./bootstrap.sh
+```
+
+Он сам открывает нужные страницы Google Cloud Console и собирает токены —
+займёт 5–15 минут в зависимости от опыта. Если хочешь сделать руками с
+пониманием каждого шага — см. [setup_oauth.md](setup_oauth.md).
+
+После настройки появляется `~/.config/mcp-gdrive/tokens.json` и все скрипты
+начинают работать.
 
 ### Как сюда подключить Codex / Claude Code
 
